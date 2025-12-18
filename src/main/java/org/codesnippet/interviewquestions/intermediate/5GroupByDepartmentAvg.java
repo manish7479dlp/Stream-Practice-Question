@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class GroupByDepartment {
+public class GroupByDepartmentAvg {
     public static void main(String[] args) {
         List<Employee> employees = Arrays.asList(
                 new Employee(1,"John", "HR", 50000),
